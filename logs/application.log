@@ -1,0 +1,156 @@
+2026-05-29T15:16:57.703+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.e.h.HnKs24Cntt2DoDucManh008Application : Starting HnKs24Cntt2DoDucManh008Application using Java 21.0.7 with PID 14448 (C:\Users\Dell\Documents\IT211\SS13\HN-KS24-CNTT2-DoDucManh-008\build\classes\java\main started by Dell in C:\Users\Dell\Documents\IT211\SS13\HN-KS24-CNTT2-DoDucManh-008)
+2026-05-29T15:16:57.715+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.e.h.HnKs24Cntt2DoDucManh008Application : No active profile set, falling back to 1 default profile: "default"
+2026-05-29T15:16:57.928+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-29T15:16:57.929+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-29T15:17:01.598+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-29T15:17:01.932+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 310 ms. Found 1 JPA repository interface.
+2026-05-29T15:17:04.301+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-29T15:17:04.331+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-29T15:17:04.332+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-29T15:17:04.417+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 6486 ms
+2026-05-29T15:17:04.825+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-29T15:17:04.975+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-29T15:17:06.629+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-29T15:17:06.727+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-29T15:17:09.121+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a90d3dd
+2026-05-29T15:17:09.129+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-29T15:17:09.422+07:00  WARN 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-29T15:17:09.464+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/hackathon?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: hackathon/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-29T15:17:11.989+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-29T15:17:12.690+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T15:17:14.082+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-29T15:17:15.187+07:00  WARN 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-29T15:17:16.344+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-29T15:17:16.356+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.e.h.HnKs24Cntt2DoDucManh008Application : Started HnKs24Cntt2DoDucManh008Application in 22.341 seconds (process running for 29.521)
+2026-05-29T15:17:59.013+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2026-05-29T15:17:59.024+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-29T15:17:59.036+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-29T15:17:59.039+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T15:17:59.049+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-29T15:17:59.083+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-29T15:17:59.287+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.e.h.HnKs24Cntt2DoDucManh008Application : Starting HnKs24Cntt2DoDucManh008Application using Java 21.0.7 with PID 14448 (C:\Users\Dell\Documents\IT211\SS13\HN-KS24-CNTT2-DoDucManh-008\build\classes\java\main started by Dell in C:\Users\Dell\Documents\IT211\SS13\HN-KS24-CNTT2-DoDucManh-008)
+2026-05-29T15:17:59.287+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.e.h.HnKs24Cntt2DoDucManh008Application : No active profile set, falling back to 1 default profile: "default"
+2026-05-29T15:18:00.324+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-29T15:18:00.373+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+2026-05-29T15:18:00.857+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-29T15:18:00.868+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-29T15:18:00.868+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-29T15:18:00.957+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1670 ms
+2026-05-29T15:18:01.137+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-29T15:18:01.284+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-29T15:18:01.287+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-05-29T15:18:01.333+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d733fcb
+2026-05-29T15:18:01.333+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-05-29T15:18:01.337+07:00  WARN 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-29T15:18:01.338+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/hackathon?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: hackathon/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-29T15:18:01.499+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-29T15:18:01.547+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T15:18:01.761+07:00  WARN 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-29T15:18:03.570+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-29T15:18:03.580+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.e.h.HnKs24Cntt2DoDucManh008Application : Started HnKs24Cntt2DoDucManh008Application in 4.372 seconds (process running for 76.745)
+2026-05-29T15:18:03.583+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-29T15:18:04.252+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2026-05-29T15:18:04.257+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-29T15:18:04.265+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-29T15:18:04.268+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T15:18:04.268+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-05-29T15:18:04.281+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-05-29T15:18:04.479+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.e.h.HnKs24Cntt2DoDucManh008Application : Starting HnKs24Cntt2DoDucManh008Application using Java 21.0.7 with PID 14448 (C:\Users\Dell\Documents\IT211\SS13\HN-KS24-CNTT2-DoDucManh-008\build\classes\java\main started by Dell in C:\Users\Dell\Documents\IT211\SS13\HN-KS24-CNTT2-DoDucManh-008)
+2026-05-29T15:18:04.479+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.e.h.HnKs24Cntt2DoDucManh008Application : No active profile set, falling back to 1 default profile: "default"
+2026-05-29T15:18:04.961+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-29T15:18:04.988+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2026-05-29T15:18:05.434+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-29T15:18:05.436+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-29T15:18:05.436+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-29T15:18:05.505+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1026 ms
+2026-05-29T15:18:05.637+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-29T15:18:05.730+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-29T15:18:05.737+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-05-29T15:18:05.769+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a9cdd51
+2026-05-29T15:18:05.770+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-05-29T15:18:05.772+07:00  WARN 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-29T15:18:05.772+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/hackathon?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: hackathon/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-29T15:18:05.902+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-29T15:18:05.922+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T15:18:06.101+07:00  WARN 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-29T15:18:06.705+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-29T15:18:06.711+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.e.h.HnKs24Cntt2DoDucManh008Application : Started HnKs24Cntt2DoDucManh008Application in 2.315 seconds (process running for 79.877)
+2026-05-29T15:18:06.715+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-29T15:21:11.773+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-29T15:21:11.788+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-29T15:21:11.793+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T15:21:11.793+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-05-29T15:21:11.809+07:00  INFO 14448 --- [HN-KS24-CNTT2-DoDucManh-008] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-05-29T15:37:13.824+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.e.h.HnKs24Cntt2DoDucManh008Application : Starting HnKs24Cntt2DoDucManh008Application using Java 21.0.7 with PID 4172 (C:\Users\Dell\Documents\IT211\SS13\HN-KS24-CNTT2-DoDucManh-008\build\classes\java\main started by Dell in C:\Users\Dell\Documents\IT211\SS13\HN-KS24-CNTT2-DoDucManh-008)
+2026-05-29T15:37:13.833+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.e.h.HnKs24Cntt2DoDucManh008Application : No active profile set, falling back to 1 default profile: "default"
+2026-05-29T15:37:14.083+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-29T15:37:14.083+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-29T15:37:18.648+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-29T15:37:18.943+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 178 ms. Found 1 JPA repository interface.
+2026-05-29T15:37:22.361+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-29T15:37:22.414+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-29T15:37:22.416+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-29T15:37:22.629+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 8545 ms
+2026-05-29T15:37:23.472+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-29T15:37:23.754+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-29T15:37:27.174+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-29T15:37:27.284+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-29T15:37:28.491+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1bec3ab7
+2026-05-29T15:37:28.497+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-29T15:37:28.703+07:00  WARN 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-29T15:37:28.776+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/hackathon?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: hackathon/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-29T15:37:31.848+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-29T15:37:32.050+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T15:37:32.383+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-29T15:37:32.760+07:00  WARN 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-29T15:37:33.933+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-29T15:37:33.945+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [restartedMain] o.e.h.HnKs24Cntt2DoDucManh008Application : Started HnKs24Cntt2DoDucManh008Application in 21.648 seconds (process running for 24.032)
+2026-05-29T15:38:34.904+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-29T15:38:34.929+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-29T15:38:34.944+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T15:38:34.953+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-29T15:38:34.978+07:00  INFO 4172 --- [HN-KS24-CNTT2-DoDucManh-008] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
